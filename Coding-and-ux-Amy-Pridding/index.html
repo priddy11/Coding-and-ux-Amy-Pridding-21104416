@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  
+   <head>
+      <meta charset="UTF-8">
+     
+      <!-- meta tags for Internet Explorer and mobile devices -->
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+      <!-- meta tags data for SEO -->
+      <title>The World of Cryptocurrency</title>
+      <meta name="description" content="All about the world of Cryptocurrency, 
+         the new digital currency thats taking over the internet. Learn all about it and what to invest in">
+      <meta name="author" content="Amy Pridding">
+     
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="stylesheet.css">
+  
+      <!-- link to favicon -->
+      <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+   </head>
+
+   <!-- checks light mode toggle on page load -->
+   <body onload="checkToggle()"> 
+
+      <!-- banner at the top of the page -->
+      <div class="banner">
+         <img src="images/crypto.png" id= "crypto-icon" alt="cryptocurrency icon">
+         <h2>BIGTIME BITCOINER</h2> 
+         <!-- google translate dropdown -->
+         <div class="select-language" id="google_translate_element"></div>
+      </div>
+     
+      <header class="page-header">
+         <div class="header-content">
+            <h1>THE WORLD OF CRYPTOCURRENCY</h1>
+         </div>
+         <nav class="page-nav" id="page-nav">
+            <ul>
+               <li><a class="nav-link" href="#about">ABOUT</a></li>
+               <li><a class="nav-link" href="#concerns">CONCERNS</a></li>
+               <li><a class="nav-link" href="#trending">TRENDING</a></li>
+               <li><a class="nav-link" href="#contact">CONTACT</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <!-- light/dark mode toggle, followed example found here: -->
+      <!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
+      <label id="switch">
+        <img alt="dark mode moon icon" id="dark-mode-moon" src="images/dark-mode.png" hidden>
+        <input type="checkbox" checked onclick="toggleDarkMode()">
+        <span class="slider round"></span>
+        <img alt="light mode sun icon" id="light-mode-sun" src="images/light-mode.webp">
+      </label>
+     
+      <main>
+         <section id="about">
+            <div class="container-content">
+               <h2>What is Cryptocurrency?</h2>
+               <p>Cryptocurrencies are digital or virtual tokens that use cryptography to secure their transactions and to control the creation of new units. Cryptocurrencies are decentralized, meaning they are not subject to government or financial institution control. Bitcoin, the first and most well-known cryptocurrency, was created in 2009. Cryptocurrencies are often traded on decentralized exchanges and can also be used to purchase goods and services.
+               </p>
+               <p> Cryptocurrencies have been gaining in popularity in recent years, as more people become aware of them and their potential use cases. Their popularity is also due in part to their volatile nature, which can lead to large price swings. This volatility can be a good thing or a bad thing, depending on how you look at it. On one hand, it can lead to quick and large profits for traders who are able to buy low and sell high. On the other hand, it can also lead to large losses just as quickly.
+               </p>
+               <p>Investing in cryptocurrencies is a risky proposition, but one that can yield large rewards. Those who are willing to take on the risk should do their own research and consult with financial professionals to make sure they are making the best decision for their circumstances.
+               </p>
+            </div>
+         </section>
+        
+        <!-- embedded youtube video -->
+         <section class="embedded-content gray-container">
+            <div class="container-content">
+               <h2>How Cryptocurrency Works</h2>
+               <iframe src="https://www.youtube.com/embed/0B3sccDYwuI?origin=https://coding-and-ux-amy-pridding.priddy11.repl.co/" title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+               </iframe>
+            </div>
+         </section>
+        
+         <section id="concerns">
+            <div class="container-content">
+               <h2>Concerns with Cyptocurrency</h2>
+               <p>With the rise in popularity of cryptocurrency, there has also been an increase in concerns around the impact on both the environment and economy. While cryptocurrencies are generally seen as legal across Europe, many aspects of cryptocurrency remain unregulated or may be subject to shifting regulations. Concerns with cyptocurrency include: 
+               </p>
+               <ul style="padding-left: 30px;">
+                  <li>Cryptocurrency is often used for illegal activities, such as money laundering and drug trafficking.</li>
+                  <li>Cryptocurrency is volatile and prone to drastic fluctuations in value.</li>
+                  <li>Cryptocurrency is largely unregulated, which means that there are few protections for investors.</li>
+                  <li>Cryptocurrency is often used as a speculative investment, rather than for everyday transactions.</li>
+                  <li>Cryptocurrency is still a relatively new technology, which means that it is subject to hacks and security breaches.</li>
+               </ul>
+            </div>
+         </section>
+        
+         <section id="trending" class="gray-container">
+            <div class="container-content">
+               <h2>Trending Cryptocurrencies</h2>
+               <div class="cards-container">
+                  <!-- cards displaying the trending cryptocurrencies  -->
+                  <figure class="trending-crypto">
+                     <figcaption>
+                        <div class="crypto-logo">
+                           <img src="images/bitcoin.png" alt="Bitcoin logo">
+                        </div>
+                        <div style="text-align:center">
+                           <strong>Bitcoin</strong>
+                        </div>
+                        <p>Bitcoin is a digital asset and a payment system invented by Satoshi Nakamoto. Transactions are verified by network nodes through cryptography and recorded in a public dispersed ledger called a blockchain. Bitcoin is unique in that there are a finite number of them: 21 million.
+                        </p>
+                     </figcaption>
+                     <a href="https://bitcoin.org/en/">
+                        <div class="learn-more">
+                           <p>Learn more about Bitcoin</p>
+                        </div>
+                     </a>
+                  </figure>
+                 
+                  <figure class="trending-crypto">
+                     <figcaption>
+                        <div class="crypto-logo">
+                           <img src="images/ethereum.png" alt="Ethereum logo">
+                        </div>
+                        <div style="text-align:center">
+                           <strong>Ethereum</strong>
+                        </div>
+                        <p>Ethereum is a public blockchain-based distributed computing platform, featuring smart contract functionality. It provides a decentralized virtual machine, the Ethereum Virtual Machine (EVM), which can execute scripts using an international network of public nodes.
+                        </p>
+                     </figcaption>
+                     <a href="https://ethereum.org/en/">
+                        <div class="learn-more">
+                           <p>Learn more about Ethereum</p>
+                        </div>
+                     </a>
+                  </figure>
+                 
+                  <figure class="trending-crypto">
+                     <figcaption>
+                        <div class="crypto-logo">
+                           <img src="images/litecoin.png" alt="Litecoin logo">
+                        </div>
+                        <div style="text-align:center">
+                           <strong>Litecoin</strong>
+                        </div>
+                        <p>Litecoin is a cryptocurrency that uses a different proof-of-work algorithm than Bitcoin. The coin limit market cap is much higher on litecoin than bitcoin, and the mining process far quicker. Litecoin can also be used to process payments faster than Bitcoin.
+                        </p>
+                     </figcaption>
+                     <a href="https://litecoin.com/en/">
+                        <div class="learn-more">
+                           <p>Learn more about Litecoin</p>
+                        </div>
+                     </a>
+                  </figure>
+               </div>
+            </div>
+         </section>
+
+         <section id="contact">
+            <div class="container-content">
+               <h2>Contact Us</h2>
+               <div>
+                  <form>
+                     <p>
+                        <label for="contact-first-name">First Name*</label>
+                        <input id="contact-first-name" type="text" name="contact-first-name"
+                           oninput="validateInput('contact-first-name')" required />
+                     </p>
+                    
+                     <p>
+                        <label for="contact-last-name">Last Name*</label>
+                        <input id="contact-last-name" type="text" name="contact-last-name"
+                           oninput="validateInput('contact-last-name')" required />
+                     </p>
+                    
+                     <p>
+                        <label for="contact-email">Your email address*</label>
+                        <input id="contact-email" type="email" name="contact-email" oninput="validateInput('contact-email')" required />
+                     </p>
+                    
+                     <p>
+                        <label for="feedback-slider">How likely are you to invest in cyptocurrency?</label>
+                     </p>
+                     <div class="slider-labels">
+                        <label for="feedback-slider">Not likey</label>
+                        <label for="feedback-slider">Extremely likely</label>
+                     </div>
+                     <input type="range" id="feedback-slider" name="feedback-slider" min="0" max="100">
+                    
+                     <p>
+                        <label for="contact-message">Your message*</label>
+                        <textarea id="contact-message" name="contact-message" oninput="validateInput('contact-message')" required spellcheck rows="5"></textarea>
+                     </p>
+                    
+                     <p style="text-align: center;width: 100%;">
+                        <input type="submit" value="send my message" />
+                     </p>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </main>
+     
+      <footer class="page-footer" id="footer">
+         <div>
+            <p>
+               <span>&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2022</a></span>
+               <span class="footer-separator">&middot;</span>
+              
+               <span>This is student coursework</span>
+               <span>&middot;</span>
+              
+               <span>Tutor <a href="mailto:a.swenson@mmu.ac.uk">Alasdair Swenson</a></span>
+               <span>&middot;</span>
+              
+               <span><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcoding-and-ux-amy-pridding.priddy11.repl.co" title="W3C HTML Validation Service">Valid HTML</a></span>
+              
+            </p>
+         </div>
+      </footer>
+
+      <!-- javascript -->
+      <script src="script.js"></script>
+      <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   </body>
+</html>

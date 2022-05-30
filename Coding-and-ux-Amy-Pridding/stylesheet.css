@@ -1,0 +1,576 @@
+ /* STYLESHEET */
+
+/* Default styling for the body.*/
+
+body {
+  font-family: 'Calibri', sans-serif;
+  font-size: 100%;
+  line-height: 1;
+  color: black;
+  background-color: white;
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Improves default font styles for forms  */
+
+input,
+textarea {
+  font-family: 'Calibri', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* page banner */
+
+.banner {
+  width: 100%;
+  font: normal normal bold 30px Calibri;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: grid;
+}
+
+#crypto-icon {
+  height: 1.5rem;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  margin: auto 8px;
+}
+
+.banner h2 {
+  margin: 8px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  font-size: 0.8rem;
+}
+
+.select-language {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 8px;
+  min-height: 25px;
+  border-radius: 8px;
+  min-width: 80px;
+}
+
+#google_translate_element select {
+  font-size: 0.8em;
+  border-radius: 10px;
+  width: 90px;
+  margin: 9px 0 !important;
+}
+
+.goog-logo-link {
+  display: none !important;
+} 
+    
+.goog-te-gadget{
+  color: transparent !important;
+  max-height: 32px !important;
+}
+
+/* page header */
+
+.page-header {
+  background-image: url(../images/cryptocurrency.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(38, 38, 38, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content {
+  max-width: 650px;
+  font-size: 1.35rem;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: 3% 0;
+}
+
+.header-content h1 {
+  line-height: 1.3;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* page navigation */
+
+.page-nav {
+  position: relative;
+  max-height: 93px;
+  top: 45.5px;
+  background-color: #ffffff;
+  box-shadow: 8px 7px 6px #00000029;
+  border-radius: 10px;
+  width: 60%;
+}
+
+.page-nav-dark-mode {
+  border-radius: 10px;
+  background-color: #262626;
+  color: white;
+}
+
+.page-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+.page-nav li {
+  flex: 1 1 50%;
+  display: flex;
+}
+
+.nav-link {
+  color: #4d4d4d;
+  padding: 15px 10px;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #dedede;
+  color: #000000;
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+.nav-link-dark-mode {
+  color: white;
+}
+
+.page-nav li:nth-child(1) a {
+  border-top-left-radius: 10px;
+  border-right: 0.1px solid lightgray;
+  border-bottom: 0.1px solid lightgray;
+}
+
+.page-nav li:nth-child(2) a {
+  border-top-right-radius: 10px; 
+  border-left: 0.1px solid lightgray;
+  border-bottom: 0.1px solid lightgray;
+}
+
+.page-nav li:nth-child(3) a {
+  border-bottom-left-radius: 10px;
+  border-right: 0.1px solid lightgray;
+  border-top: 0.1px solid lightgray;
+}
+
+.page-nav li:nth-child(4) a {
+  border-bottom-right-radius: 10px;
+  border-left: 0.1px solid lightgray;
+  border-top: 0.1px solid lightgray;
+}
+
+/* main layout */
+
+.container-content {
+  padding: 100px 10px 50px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+section:not(:first-child) .container-content {
+  padding: 50px 10px;
+}
+
+.gray-container {
+  background-color: lightgray;
+}
+
+.dark-mode-gray-container {
+  background-color: #262626;
+}
+
+/* embedded content section */
+
+.embedded-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.embedded-content iframe {
+  width: 100%;
+  min-height: 321px;
+  border: 0;
+}
+
+/* concerns section */
+
+#concerns li {
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+/* trending section */
+
+#trending .container-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trending-crypto {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  box-shadow: 0 2px 1px -1px #0003, 0 1px 1px #00000024, 0 1px 3px #0000001f;
+  padding: 20px;
+  margin-bottom: 8px;
+}
+
+#trending figcaption {
+  padding: 8px 0 10px 0;
+}
+
+.trending-crypto a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 24px;
+}
+
+.card-dark-mode {
+  background-color: black;
+}
+
+.learn-more {
+  width: 237px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid #0000001f;
+  border-radius: 12px;
+  box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+.learn-more:hover {
+  background-color: #F0F0F0;
+}
+
+.learn-more p {
+  margin: 10px 10px;
+  color: black;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.crypto-logo {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.crypto-logo img {
+  height: 80px;
+}
+
+/* larger screen code */
+
+@media screen and (min-width: 350px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+
+  /* headings  */
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  /* page banner */
+
+  .banner h2 {
+    font-size: 1.5rem;
+  }
+
+  #crypto-icon {
+    height: 2rem;
+  }
+
+  #google_translate_element select {
+    font-size: 10pt;
+    border-radius: 10px;
+    min-height: 23px;
+    width: 140px;
+    margin: 5px 0 !important;
+  }
+
+  /* page navigation */
+  
+  .page-nav {
+    max-height: 46px;
+    top: 23px;
+  }
+  
+  .page-nav ul {
+    flex-wrap: nowrap;
+  }
+  
+  .page-nav li {
+    flex: 1 1 25%;
+  }
+  
+  .page-nav li:nth-child(1) a {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  
+  .page-nav li:nth-child(2) a {
+    border-top-right-radius: 0px; 
+    border-left: 0;
+    border-bottom: 0;
+  }
+  
+  .page-nav li:nth-child(3) a {
+    border-bottom-left-radius: 0px;
+    border-right: 0;
+    border-top: 0;
+  }
+  
+  .page-nav li:nth-child(4) a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 0;
+    border-top: 0;
+  }
+
+  /* embedded content */
+  
+  .embedded-content iframe {
+    min-height: 435px;
+  }
+}
+
+@media screen and (min-width: 893px) {
+  /* trending section */
+
+  #trending .cards-container {
+    display: flex;
+  }
+
+  #trending .trending-crypto {
+    flex: 33%;
+    margin-bottom: 0;
+  }
+
+  #trending .trending-crypto+.trending-crypto {
+    margin-left: 20px;
+  }
+}
+
+/* form styling */
+
+form label {
+  display: block;
+  padding-bottom: 0.2em;
+  padding-top: 1em;
+}
+
+form input,
+form textarea {
+  padding: 0.4em 0.3em;
+  font-size: 1.1em;
+  border: 1px solid #bbb;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.valid {
+  border: 2px solid #4BB543;
+  outline: none;
+}
+
+.invalid {
+  border: 2px solid red;
+  outline: none;
+}
+
+.slider-labels {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+form input[type="submit"] {
+  min-width: 0;
+  background-color: #0303a1;
+  border: 0;
+  border-radius: 0.2em;
+  padding: 13px 30px;
+  margin-top: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #010163;
+}
+
+/* footer */
+
+.page-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 0px 10px;
+}
+
+.footer-dark-mode {
+  background-color: #262626;
+}
+
+.footer-link-dark-mode:link {
+  color: yellow;
+}
+
+.footer-link-dark-mode:visited {
+  color: pink;
+}
+
+.footer-link-dark-mode:active {
+  color: red;
+}
+
+/* light/dark mode toggle, followed example found here: */
+/* https://www.w3schools.com/howto/howto_css_switch.asp */
+
+#switch {
+  position: fixed;
+  bottom: 12px;
+  right: 48px;
+  display: flex;
+  width: 60px;
+  height: 34px;
+}
+
+.switch-dark-mode {
+  right: 10px !important;
+}
+
+#dark-mode-moon {
+  position: relative;
+  right: 43px;
+}
+
+#switch input {
+  margin-right: 62px;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
