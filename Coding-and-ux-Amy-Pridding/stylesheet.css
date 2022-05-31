@@ -56,7 +56,7 @@ p {
 
 .banner {
   width: 100%;
-  font: normal normal bold 30px Calibri;
+  font: normal normal bold 30px 'Calibri', sans-serif;
   background-color: black;
   color: white;
   text-align: center;
