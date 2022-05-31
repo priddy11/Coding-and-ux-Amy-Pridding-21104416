@@ -36,6 +36,6 @@
 - Another simple technique for readable code is using meaningful names for CSS classes and JavaScript variable, it should be obvious to a person what something does when looking at the name of it for the first time
 - Code passes HTML and CSS validation with no errors
 
-![Website passing HTML validator](image.jpg)
+![Website passing HTML validator](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/HTML-checker.png)
 
 ![Website passing CSS validator](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/CSS-checker.png)
