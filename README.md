@@ -38,4 +38,4 @@
 
 ![Website passing HTML validator](image.jpg)
 
-![Website passing CSS validator](image.jpg)
+![Website passing CSS validator](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/CSS-checker.png)
