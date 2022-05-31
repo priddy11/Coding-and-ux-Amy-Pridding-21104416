@@ -6,14 +6,14 @@
 - The website is screen reader compatible and has been tested on both Mac and windows. Plus it allows for keyboard-only navigation. 
 - Colour contrasts are WCAG AAA compliant
 
-![Large text WCAG AAA compliant](image.jpg) ![Normal text WCAG AAA compliant](image.jpg)
+![Large text WCAG AAA compliant](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/Large-text.png) ![Normal text WCAG AAA compliant](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/Normal-text.png)
 - All images have alt tags
 - Video has closed captions
 - Content structured using HTML5 (Using nav, figure/figcaption and label tags are examples of this)
 - The government has official advice on how to build websites catering for different disabilities, [the posters can be found here](https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf), as you can see from these posters the previously mentioned points show how the site is accessible for all users no matter what disability they may have. 
 - I used Lighthouse to analyse the current accessibility. Lighthouse performs tests on elements such as buttons and links to see easily the page can be used by people with disabilities. The audit will produce a list of these tests results so you can see which areas of the page can be improved to become more accessible to users. Examples of tests ran are checks for alt tags on images, appropriate descriptions on links and visual content being compatible with screen readers. As you can see, the website passed all the tests and even got a score of 100 on accessibility.
 
-![Lighthouse generated report](image.jpg)
+![Lighthouse generated report](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/Lighthouse.png)
 
 ## **Code considerations**
 - I used this site to look at examples of good coding techniques https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118
@@ -28,11 +28,11 @@
 
 - Simply leaving empty lines to split code into obvious blocks makes it more readable, here’s an example:
 
-![Code split into blocks](image.jpg)
+![Code split into blocks](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/code-blocks.png)
 - I had a consistent naming scheme, all CSS classes and IDs use hyphens to separate each word (e.g. dark-mode) and all JavaScript names use camel case which is the best practice (camel case is where the name is all one long word, you start with a lower case and use an upper case to show a new word has started like this: myFunctionName)
 - The code doesn’t violate the DRY principle (DRY stands for don’t repeat yourself), in the JavaScript I made function for adding and removing CSS classes to lists of HTML elements, so rather than using the same code repeatedly, it just calls the function each time 
 
-![JavaScript DRY principle](image.jpg)
+![JavaScript DRY principle](https://github.com/priddy11/Coding-and-ux-Amy-Pridding-21104416/blob/main/README-images/code-DRY-principle.png)
 - Another simple technique for readable code is using meaningful names for CSS classes and JavaScript variable, it should be obvious to a person what something does when looking at the name of it for the first time
 - Code passes HTML and CSS validation with no errors
 
